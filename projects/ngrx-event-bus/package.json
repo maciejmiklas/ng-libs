@@ -1,34 +1,32 @@
 {
-    "name": "ngrx-event-bus",
-    "version": "2.1.6",
-    "description": "Angular and RxJs event bus with Mediator Pattern",
-    "author": "Abhishek Joshi aka PixelByAJ",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/pixelbyaj/ng-libs"
-    },
-    "bugs": {
-        "url": "https://github.com/pixelbyaj/ng-libs/issues"
-    },
-    "homepage": "https://github.com/pixelbyaj/ng-libs",
-    "keywords": [
-        "angular",
-        "javascript",
-        "rxjs",
-        "typescript",
-        "library",
-        "publish",
-        "subscribe",
-        "event bus",
-        "publish & subscriber"
-    ],
-    "license": "MIT",
-    "peerDependencies": {
-        "@angular/common": "^13.0.0",
-        "@angular/core": "^13.0.0",
-        "rxjs": "~7.4.0"
-    },
-    "dependencies": {
-        "tslib": "^2.3.0"
-      }
+  "name": "@maciejmiklas/ngrx-event-bus",
+  "version": "2.2.0",
+  "description": "Angular and RxJs event bus with Mediator Pattern",
+  "author": "Abhishek Joshi aka PixelByAJ",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixelbyaj/ng-libs"
+  },
+  "bugs": {
+    "url": "https://github.com/pixelbyaj/ng-libs/issues"
+  },
+  "homepage": "https://github.com/pixelbyaj/ng-libs",
+  "keywords": [
+    "angular",
+    "javascript",
+    "rxjs",
+    "typescript",
+    "library",
+    "publish",
+    "subscribe",
+    "event bus",
+    "publish & subscriber"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^15.1.1",
+    "@angular/core": "^15.1.1",
+    "rxjs": "^7.8.0",
+    "tslib": "^2.4.1"
+  }
 }
